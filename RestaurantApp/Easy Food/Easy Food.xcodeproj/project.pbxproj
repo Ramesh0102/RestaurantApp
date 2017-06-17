@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FF9370F1EF4D5A900C18D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9370E1EF4D5A900C18D01 /* main.m */; };
+		7FF937121EF4D5A900C18D01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF937111EF4D5A900C18D01 /* AppDelegate.m */; };
+		7FF937181EF4D5A900C18D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF937161EF4D5A900C18D01 /* Main.storyboard */; };
+		7FF9371B1EF4D5A900C18D01 /* Easy_Food.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FF937191EF4D5A900C18D01 /* Easy_Food.xcdatamodeld */; };
+		7FF9371D1EF4D5A900C18D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF9371C1EF4D5A900C18D01 /* Assets.xcassets */; };
+		7FF937201EF4D5A900C18D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF9371E1EF4D5A900C18D01 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FF9370A1EF4D5A900C18D01 /* Easy Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF9370E1EF4D5A900C18D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FF937101EF4D5A900C18D01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FF937111EF4D5A900C18D01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FF937171EF4D5A900C18D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FF9371A1EF4D5A900C18D01 /* Easy_Food.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easy_Food.xcdatamodel; sourceTree = "<group>"; };
+		7FF9371C1EF4D5A900C18D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FF9371F1EF4D5A900C18D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FF937211EF4D5A900C18D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FF937071EF4D5A900C18D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FF937011EF4D5A900C18D01 = {
+			isa = PBXGroup;
+			children = (
+				7FF9370C1EF4D5A900C18D01 /* Easy Food */,
+				7FF9370B1EF4D5A900C18D01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF9370B1EF4D5A900C18D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF9370A1EF4D5A900C18D01 /* Easy Food.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FF9370C1EF4D5A900C18D01 /* Easy Food */ = {
+			isa = PBXGroup;
+			children = (
+				7FF937291EF4D60500C18D01 /* RestaurantViewControllers */,
+				7FF937281EF4D5EA00C18D01 /* RestaurantPresenters */,
+				7FF937271EF4D5DC00C18D01 /* RestarauntServices */,
+				7FF937101EF4D5A900C18D01 /* AppDelegate.h */,
+				7FF937111EF4D5A900C18D01 /* AppDelegate.m */,
+				7FF937161EF4D5A900C18D01 /* Main.storyboard */,
+				7FF9371C1EF4D5A900C18D01 /* Assets.xcassets */,
+				7FF9371E1EF4D5A900C18D01 /* LaunchScreen.storyboard */,
+				7FF937211EF4D5A900C18D01 /* Info.plist */,
+				7FF937191EF4D5A900C18D01 /* Easy_Food.xcdatamodeld */,
+				7FF9370D1EF4D5A900C18D01 /* Supporting Files */,
+			);
+			path = "Easy Food";
+			sourceTree = "<group>";
+		};
+		7FF9370D1EF4D5A900C18D01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FF9370E1EF4D5A900C18D01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FF937271EF4D5DC00C18D01 /* RestarauntServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RestarauntServices;
+			sourceTree = "<group>";
+		};
+		7FF937281EF4D5EA00C18D01 /* RestaurantPresenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RestaurantPresenters;
+			sourceTree = "<group>";
+		};
+		7FF937291EF4D60500C18D01 /* RestaurantViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RestaurantViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF937091EF4D5A900C18D01 /* Easy Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF937241EF4D5A900C18D01 /* Build configuration list for PBXNativeTarget "Easy Food" */;
+			buildPhases = (
+				7FF937061EF4D5A900C18D01 /* Sources */,
+				7FF937071EF4D5A900C18D01 /* Frameworks */,
+				7FF937081EF4D5A900C18D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Food";
+			productName = "Easy Food";
+			productReference = 7FF9370A1EF4D5A900C18D01 /* Easy Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FF937021EF4D5A900C18D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = remotetiger.com;
+				TargetAttributes = {
+					7FF937091EF4D5A900C18D01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7FF937051EF4D5A900C18D01 /* Build configuration list for PBXProject "Easy Food" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FF937011EF4D5A900C18D01;
+			productRefGroup = 7FF9370B1EF4D5A900C18D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF937091EF4D5A900C18D01 /* Easy Food */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FF937081EF4D5A900C18D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF937201EF4D5A900C18D01 /* LaunchScreen.storyboard in Resources */,
+				7FF9371D1EF4D5A900C18D01 /* Assets.xcassets in Resources */,
+				7FF937181EF4D5A900C18D01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FF937061EF4D5A900C18D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF937121EF4D5A900C18D01 /* AppDelegate.m in Sources */,
+				7FF9370F1EF4D5A900C18D01 /* main.m in Sources */,
+				7FF9371B1EF4D5A900C18D01 /* Easy_Food.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FF937161EF4D5A900C18D01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF937171EF4D5A900C18D01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FF9371E1EF4D5A900C18D01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF9371F1EF4D5A900C18D01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FF937221EF4D5A900C18D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FF937231EF4D5A900C18D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF937251EF4D5A900C18D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Food/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramesh.Easy-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FF937261EF4D5A900C18D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Food/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramesh.Easy-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FF937051EF4D5A900C18D01 /* Build configuration list for PBXProject "Easy Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF937221EF4D5A900C18D01 /* Debug */,
+				7FF937231EF4D5A900C18D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF937241EF4D5A900C18D01 /* Build configuration list for PBXNativeTarget "Easy Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF937251EF4D5A900C18D01 /* Debug */,
+				7FF937261EF4D5A900C18D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7FF937191EF4D5A900C18D01 /* Easy_Food.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7FF9371A1EF4D5A900C18D01 /* Easy_Food.xcdatamodel */,
+			);
+			currentVersion = 7FF9371A1EF4D5A900C18D01 /* Easy_Food.xcdatamodel */;
+			path = Easy_Food.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7FF937021EF4D5A900C18D01 /* Project object */;
+}
